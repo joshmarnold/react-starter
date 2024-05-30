@@ -22,8 +22,6 @@ const fetchAndSetUserProfile = async (
     .eq("id", userId)
     .single();
 
-  console.log(data);
-
   if (error) {
     console.error(error);
     showNotification({
