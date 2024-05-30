@@ -7,7 +7,6 @@ export const HomePage: React.FC = () => {
       <Typography variant="h4" component="h1" gutterBottom>
         Home Page
       </Typography>
-      <Typography variant="body1">Here you can find sound trees.</Typography>
     </div>
   );
 };
