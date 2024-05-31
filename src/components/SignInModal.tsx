@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Modal, Box, Typography, Button } from "@mui/material";
 import { useSelector } from "react-redux";
-import { RootState } from "@store/store";
+import { RootState } from "store/store";
 import { useAuth } from "../hooks/useAuth";
 
 const style = {
