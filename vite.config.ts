@@ -7,10 +7,9 @@ export default defineConfig({
   assetsInclude: ["**/*.mp3"],
   resolve: {
     alias: {
-      "@components": path.resolve(__dirname, "src/components"),
-      "@hooks": path.resolve(__dirname, "src/hooks"),
-      "@styles": path.resolve(__dirname, "src/styles"),
-      "@store": path.resolve(__dirname, "src/store"),
+      "components": path.resolve(__dirname, "src/components"),
+      "hooks": path.resolve(__dirname, "src/hooks"),
+      "store": path.resolve(__dirname, "src/store"),
       src: path.resolve(__dirname, "src"), // Add this line
     },
   },
