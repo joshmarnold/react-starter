@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import { SignInModal } from "components/SignInModal";
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { SignInModal } from "../components/SignInModal";
 
 export const NavBar: React.FC = () => {
   const [open, setOpen] = useState(false);
