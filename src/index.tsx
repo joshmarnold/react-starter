@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Provider } from "react-redux";
 import { App } from "./App";
 import { store } from "./store/store";
-import { NotificationProvider } from "components/NotificationContext";
+import { NotificationProvider } from "./components/NotificationContext";
 
 const theme = createTheme();
 
