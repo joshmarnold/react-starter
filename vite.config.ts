@@ -10,7 +10,8 @@ export default defineConfig({
       "components": path.resolve(__dirname, "src/components"),
       "hooks": path.resolve(__dirname, "src/hooks"),
       "store": path.resolve(__dirname, "src/store"),
-      src: path.resolve(__dirname, "src"), // Add this line
+      supabase: path.resolve(__dirname, "src/supabaseClient.ts"),
+      src: path.resolve(__dirname, "src"), 
     },
   },
 });
