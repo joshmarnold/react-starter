@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { redirect, useLocation, useNavigate } from "react-router-dom";
 import { supabase } from "supabase";
-import { useAppStore, useAppDispatch } from "@store/store";
+import { useAppStore, useAppDispatch } from "store/store";
 import {
   setProfile,
   setSession,
   clearProfile,
   clearSession,
 } from "../store/userSlice";
-import { useNotification } from "@components/NotificationContext";
+import { useNotification } from "components/NotificationContext";
 
 const fetchAndSetUserProfile = async (
   userId: string,
