@@ -22,8 +22,8 @@ First, you need to set up your environment variables. Create a `.env` file in th
 
 ```bash
 # .env
-REACT_APP_SUPABASE_URL=https://your-supabase-url.supabase.co
-REACT_APP_SUPABASE_ANON_KEY=your-anon-key
+VITE_SUPABASE_URL=https://your-supabase-url.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
 ```
 
 ### 2. Set Up Google Authentication
