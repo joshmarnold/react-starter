@@ -1,4 +1,1 @@
 User-agent: *
-Disallow: /profile/
-Disallow: /projects/
-Disallow: /hidden/
