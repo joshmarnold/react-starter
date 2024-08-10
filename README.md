@@ -1,6 +1,4 @@
-# Starter Project for React with TypeScript, Supabase, and Google Authentication
-
-This repository is designed to help you quickly set up a web application using Vercel, React, Redux, React-Router, TypeScript, Vite and Supabase. Follow the instructions below to get started and customize the project to suit your needs.
+Set up a web application using Vercel, React, Redux, React-Router, TypeScript, Vite, and Supabase.
 
 ---
 
@@ -8,8 +6,7 @@ This repository is designed to help you quickly set up a web application using V
 
 - **React with TypeScript**: Provides a strong foundation for building robust and scalable applications.
 - **Vite Configuration**: Pre-configured with code splitting and optimizations for production.
-- **Supabase Integration**: Easily set up database and authentication with Supabase.
-- **Google Authentication**: Implemented using Supabase's OAuth flow. You can swap out for another solution. Just read supbase docs.
+- **Supabase Integration**: database, edge functions and authentication
 - **React Router**: Manage navigation and routes efficiently.
 
 ---
