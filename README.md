@@ -15,7 +15,7 @@ Set up a web application using Vercel, React, Redux, React-Router, TypeScript, V
 
 ### 1. Update Environment Variables
 
-First, you need to set up your environment variables. Create a `.env` file in the root of your project and add your Supabase project credentials.
+Set up environment variables. Create a `.env` file at the project's root and add the Supabase project credentials.
 
 ```bash
 # .env
@@ -25,18 +25,18 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 
 ### 2. Set Up Google Authentication
 
-If you plan to use Google for authentication, follow these steps:
+For Google authentication, follow these steps:
 
 1. **Create a Google Cloud Project**:
 
    - Follow the steps in this [YouTube tutorial](https://youtu.be/_XM9ziOzWk4?si=j3Bm7qszdDU2v_BQ) to create an application in Google Cloud Platform (GCP) and obtain your OAuth 2.0 credentials.
 
 2. **Update Supabase Settings**:
-   - In your Supabase dashboard, navigate to the Authentication section and configure the Google provider using the credentials obtained from GCP.
+   - In the Supabase dashboard, navigate to the Authentication section and configure the Google provider using the credentials obtained from GCP.
 
 ### 3. Database Trigger for Profile Creation
 
-To automatically create user profiles in your Supabase database when new users sign up, use the following SQL trigger. Customize it with the profile attributes you need.
+Use the following SQL trigger to automatically create user profiles in your Supabase database when new users sign up. Customize with the profile attributes you need.
 
 ```sql
 create or replace function public.create_profile_from_auth()
@@ -74,13 +74,13 @@ Then, start the dev server:
 yarn vite
 ```
 
-This will start the Vite development server and you can view the project at http://localhost:5173.
+This will start the Vite development server, and you can view the project at http://localhost:5173.
 
 ### 5. Deploy with Vercel
 
 1. Create a Vercel Account: If you don't already have one, create a Vercel account.
 2. Link GitHub Repository:
-   - In Vercel, click on "New Project" and then "Import Git Repository".
+   - In Vercel, click on "New Project" and then "Import Git Repository."
    - Authenticate with GitHub and select your repository.
 3. Configure Environment Variables:
    -  In your Vercel project dashboard, go to "Settings" -> "Environment Variables" and add the same environment variables from your .env file.
